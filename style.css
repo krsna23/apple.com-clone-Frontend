@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --padding-inline-section: 100px;
+}
+
+
+body{
+    font-family: Roboto;
+}
+
+
+/* ------------------Utility Class------------------- */
+
+.full-screen{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.container{
+    max-width: 1180px;
+    width: 700px;
+    position:absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    text-decoration: none;
+    font-style: normal;
+    color: #117ce8;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.button:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+}
+
+.button-icon{
+    vertical-align: middle !important;
+}
+
+
+/* -----------------Nav Section-----------------  */
+
+.nav-section{
+    z-index: 1;
+    width: 100%;
+    height: 44px;
+    background-color: #292828;
+    opacity: 0.95;
+    position: fixed;
+}
+
+.links{
+    width: 90%;
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    /* padding: 0 var(--padding-inline-section); */
+    color: #dbdbdb;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.link{
+    cursor: pointer;
+}
+
+/* ------------------Hero Section------------------ */
+
+.hero-section{
+    background-image: url(/assets/asset\ 1.jpeg);
+}
+
+.hero-container{
+    margin-top: 300px;
+}
+
+.hero-heading{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+
+.hero-sub-heading{
+    font-size: 25px;
+}
+
+.hero-text{
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 500;
+   color: #707071;
+}
+
+/* --------------------iphonepro-section----------------- */
+
+.ipro-section{
+    background-image: url(/assets/asset\ 2.jpeg);
+}
+
+.ipro-heading{
+    color: white;
+    font-size: 75px;
+}
+
+.ipro-subheading{
+    color: white;
+    font-size: 38px;
+    padding: 5px 0 20px;
+}
+
+
+/* -------------------- Iphone-section ---------------- */
+
+.iphone-section{
+    background-image: url(/assets/asset\ 3.jpeg);
+}
+
+.iphone-heading{
+    font-size: 75px;
+}
+
+.iphone-subheading{
+    font-size: 38px;
+    padding: 5px 0 20px;
+}
+
+/*----------------- products-section -----------------*/
+
+.products-section{
+    display: flex;
+}
+
+.products-left{
+    width: 50%;
+    margin: 0 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.product-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.products-right{
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.products1-left{
+    background-image: url(assets/asset\ 7.jpeg);
+}
+
+.products1-right{
+    background-image: url(assets/asset\ 9.jpeg);
+}
+
+.product1{
+    color: white;
+}
+
+.product2{
+    color: black;
+}
+
+.product-header{
+    font-size: 30px;
+    font-weight: 600;
+}
